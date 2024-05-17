@@ -27,7 +27,7 @@ namespace pharmacy_management_system
 
         private void Submit_Button_Click(object sender, EventArgs e)
         {
-            Main_Form form = new Main_Form();
+            UserForm form = new UserForm();
             this.Hide();
             form.FormClosed += (s, args) => this.Close();
             form.Show();

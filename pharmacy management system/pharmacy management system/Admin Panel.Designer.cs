@@ -34,23 +34,23 @@
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.Delete_Button = new System.Windows.Forms.Button();
             this.Edit_Button = new System.Windows.Forms.Button();
-            this.Add_Button = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.AddDrugButton = new System.Windows.Forms.Button();
             this.deleteDrugButton = new System.Windows.Forms.Button();
             this.updateDrugButton = new System.Windows.Forms.Button();
             this.usersBindingNavigator = new System.Windows.Forms.BindingNavigator(this.components);
+            this.bindingNavigatorAddNewItem = new System.Windows.Forms.ToolStripButton();
+            this.bindingNavigatorCountItem = new System.Windows.Forms.ToolStripLabel();
+            this.bindingNavigatorDeleteItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorMoveFirstItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorMovePreviousItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorSeparator = new System.Windows.Forms.ToolStripSeparator();
             this.bindingNavigatorPositionItem = new System.Windows.Forms.ToolStripTextBox();
-            this.bindingNavigatorCountItem = new System.Windows.Forms.ToolStripLabel();
             this.bindingNavigatorSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.bindingNavigatorMoveNextItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorMoveLastItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.bindingNavigatorAddNewItem = new System.Windows.Forms.ToolStripButton();
-            this.bindingNavigatorDeleteItem = new System.Windows.Forms.ToolStripButton();
             this.usersBindingNavigatorSaveItem = new System.Windows.Forms.ToolStripButton();
             this.usersDataGridView = new System.Windows.Forms.DataGridView();
             this.drugsDataGridView = new System.Windows.Forms.DataGridView();
@@ -71,7 +71,6 @@
             this.usersTableAdapter = new pharmacy_management_system.PharamcyDataSetTableAdapters.usersTableAdapter();
             this.tableAdapterManager = new pharmacy_management_system.PharamcyDataSetTableAdapters.TableAdapterManager();
             this.drugsTableAdapter = new pharmacy_management_system.PharamcyDataSetTableAdapters.drugsTableAdapter();
-            this.AddDrugButton = new System.Windows.Forms.Button();
             this.Users_Panel_Group.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -101,7 +100,6 @@
             this.groupBox2.BackColor = System.Drawing.SystemColors.Control;
             this.groupBox2.Controls.Add(this.Delete_Button);
             this.groupBox2.Controls.Add(this.Edit_Button);
-            this.groupBox2.Controls.Add(this.Add_Button);
             this.groupBox2.Font = new System.Drawing.Font("Impact", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.groupBox2.Location = new System.Drawing.Point(18, 43);
@@ -116,7 +114,7 @@
             this.Delete_Button.BackColor = System.Drawing.SystemColors.Control;
             this.Delete_Button.Font = new System.Drawing.Font("Impact", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Delete_Button.Image = ((System.Drawing.Image)(resources.GetObject("Delete_Button.Image")));
-            this.Delete_Button.Location = new System.Drawing.Point(15, 258);
+            this.Delete_Button.Location = new System.Drawing.Point(15, 207);
             this.Delete_Button.Name = "Delete_Button";
             this.Delete_Button.Size = new System.Drawing.Size(106, 99);
             this.Delete_Button.TabIndex = 11;
@@ -127,26 +125,12 @@
             this.Edit_Button.BackColor = System.Drawing.SystemColors.Control;
             this.Edit_Button.Font = new System.Drawing.Font("Impact", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Edit_Button.Image = ((System.Drawing.Image)(resources.GetObject("Edit_Button.Image")));
-            this.Edit_Button.Location = new System.Drawing.Point(15, 149);
+            this.Edit_Button.Location = new System.Drawing.Point(15, 88);
             this.Edit_Button.Name = "Edit_Button";
             this.Edit_Button.Size = new System.Drawing.Size(106, 99);
             this.Edit_Button.TabIndex = 8;
             this.Edit_Button.UseVisualStyleBackColor = false;
             this.Edit_Button.Click += new System.EventHandler(this.Edit_Button_Click);
-            // 
-            // Add_Button
-            // 
-            this.Add_Button.BackColor = System.Drawing.SystemColors.Control;
-            this.Add_Button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.Add_Button.Cursor = System.Windows.Forms.Cursors.Default;
-            this.Add_Button.Font = new System.Drawing.Font("Impact", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Add_Button.Image = ((System.Drawing.Image)(resources.GetObject("Add_Button.Image")));
-            this.Add_Button.Location = new System.Drawing.Point(15, 44);
-            this.Add_Button.Name = "Add_Button";
-            this.Add_Button.Size = new System.Drawing.Size(106, 99);
-            this.Add_Button.TabIndex = 7;
-            this.Add_Button.UseVisualStyleBackColor = true;
-            this.Add_Button.Click += new System.EventHandler(this.Add_Button_Click);
             // 
             // groupBox1
             // 
@@ -173,6 +157,19 @@
             this.groupBox3.TabIndex = 12;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Control Panel";
+            // 
+            // AddDrugButton
+            // 
+            this.AddDrugButton.BackColor = System.Drawing.SystemColors.Control;
+            this.AddDrugButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.AddDrugButton.Cursor = System.Windows.Forms.Cursors.Default;
+            this.AddDrugButton.Font = new System.Drawing.Font("Impact", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AddDrugButton.Image = ((System.Drawing.Image)(resources.GetObject("AddDrugButton.Image")));
+            this.AddDrugButton.Location = new System.Drawing.Point(15, 39);
+            this.AddDrugButton.Name = "AddDrugButton";
+            this.AddDrugButton.Size = new System.Drawing.Size(106, 99);
+            this.AddDrugButton.TabIndex = 12;
+            this.AddDrugButton.UseVisualStyleBackColor = true;
             // 
             // deleteDrugButton
             // 
@@ -227,6 +224,31 @@
             this.usersBindingNavigator.TabIndex = 2;
             this.usersBindingNavigator.Text = "bindingNavigator1";
             // 
+            // bindingNavigatorAddNewItem
+            // 
+            this.bindingNavigatorAddNewItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigatorAddNewItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorAddNewItem.Image")));
+            this.bindingNavigatorAddNewItem.Name = "bindingNavigatorAddNewItem";
+            this.bindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(29, 24);
+            this.bindingNavigatorAddNewItem.Text = "Add new";
+            // 
+            // bindingNavigatorCountItem
+            // 
+            this.bindingNavigatorCountItem.Name = "bindingNavigatorCountItem";
+            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(45, 24);
+            this.bindingNavigatorCountItem.Text = "of {0}";
+            this.bindingNavigatorCountItem.ToolTipText = "Total number of items";
+            // 
+            // bindingNavigatorDeleteItem
+            // 
+            this.bindingNavigatorDeleteItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigatorDeleteItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorDeleteItem.Image")));
+            this.bindingNavigatorDeleteItem.Name = "bindingNavigatorDeleteItem";
+            this.bindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorDeleteItem.Size = new System.Drawing.Size(29, 24);
+            this.bindingNavigatorDeleteItem.Text = "Delete";
+            // 
             // bindingNavigatorMoveFirstItem
             // 
             this.bindingNavigatorMoveFirstItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
@@ -260,16 +282,9 @@
             this.bindingNavigatorPositionItem.Text = "0";
             this.bindingNavigatorPositionItem.ToolTipText = "Current position";
             // 
-            // bindingNavigatorCountItem
-            // 
-            this.bindingNavigatorCountItem.Name = "bindingNavigatorCountItem";
-            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(45, 24);
-            this.bindingNavigatorCountItem.Text = "of {0}";
-            this.bindingNavigatorCountItem.ToolTipText = "Total number of items";
-            // 
             // bindingNavigatorSeparator1
             // 
-            this.bindingNavigatorSeparator1.Name = "bindingNavigatorSeparator";
+            this.bindingNavigatorSeparator1.Name = "bindingNavigatorSeparator1";
             this.bindingNavigatorSeparator1.Size = new System.Drawing.Size(6, 27);
             // 
             // bindingNavigatorMoveNextItem
@@ -292,26 +307,8 @@
             // 
             // bindingNavigatorSeparator2
             // 
-            this.bindingNavigatorSeparator2.Name = "bindingNavigatorSeparator";
+            this.bindingNavigatorSeparator2.Name = "bindingNavigatorSeparator2";
             this.bindingNavigatorSeparator2.Size = new System.Drawing.Size(6, 27);
-            // 
-            // bindingNavigatorAddNewItem
-            // 
-            this.bindingNavigatorAddNewItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorAddNewItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorAddNewItem.Image")));
-            this.bindingNavigatorAddNewItem.Name = "bindingNavigatorAddNewItem";
-            this.bindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(29, 24);
-            this.bindingNavigatorAddNewItem.Text = "Add new";
-            // 
-            // bindingNavigatorDeleteItem
-            // 
-            this.bindingNavigatorDeleteItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorDeleteItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorDeleteItem.Image")));
-            this.bindingNavigatorDeleteItem.Name = "bindingNavigatorDeleteItem";
-            this.bindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorDeleteItem.Size = new System.Drawing.Size(29, 24);
-            this.bindingNavigatorDeleteItem.Text = "Delete";
             // 
             // usersBindingNavigatorSaveItem
             // 
@@ -481,19 +478,6 @@
             // 
             this.drugsTableAdapter.ClearBeforeFill = true;
             // 
-            // AddDrugButton
-            // 
-            this.AddDrugButton.BackColor = System.Drawing.SystemColors.Control;
-            this.AddDrugButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.AddDrugButton.Cursor = System.Windows.Forms.Cursors.Default;
-            this.AddDrugButton.Font = new System.Drawing.Font("Impact", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AddDrugButton.Image = ((System.Drawing.Image)(resources.GetObject("AddDrugButton.Image")));
-            this.AddDrugButton.Location = new System.Drawing.Point(15, 39);
-            this.AddDrugButton.Name = "AddDrugButton";
-            this.AddDrugButton.Size = new System.Drawing.Size(106, 99);
-            this.AddDrugButton.TabIndex = 12;
-            this.AddDrugButton.UseVisualStyleBackColor = true;
-            // 
             // Admin_Panel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -534,7 +518,6 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Button Edit_Button;
-        private System.Windows.Forms.Button Add_Button;
         private System.Windows.Forms.Button Delete_Button;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.Button deleteDrugButton;

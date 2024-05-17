@@ -30,10 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             this.UserName_Label = new System.Windows.Forms.Label();
-            this.ID_Lable = new System.Windows.Forms.Label();
             this.Password_Lable = new System.Windows.Forms.Label();
             this.UserName_Entry = new System.Windows.Forms.TextBox();
-            this.ID_Entry = new System.Windows.Forms.TextBox();
             this.Password_Entry = new System.Windows.Forms.TextBox();
             this.Login_Button = new System.Windows.Forms.Button();
             this.RegisterForm_Button = new System.Windows.Forms.Button();
@@ -44,27 +42,17 @@
             // 
             this.UserName_Label.AutoSize = true;
             this.UserName_Label.Font = new System.Drawing.Font("Impact", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.UserName_Label.Location = new System.Drawing.Point(12, 9);
+            this.UserName_Label.Location = new System.Drawing.Point(75, 79);
             this.UserName_Label.Name = "UserName_Label";
             this.UserName_Label.Size = new System.Drawing.Size(132, 35);
             this.UserName_Label.TabIndex = 0;
             this.UserName_Label.Text = "UserName";
             // 
-            // ID_Lable
-            // 
-            this.ID_Lable.AutoSize = true;
-            this.ID_Lable.Font = new System.Drawing.Font("Impact", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ID_Lable.Location = new System.Drawing.Point(12, 60);
-            this.ID_Lable.Name = "ID_Lable";
-            this.ID_Lable.Size = new System.Drawing.Size(38, 35);
-            this.ID_Lable.TabIndex = 1;
-            this.ID_Lable.Text = "ID";
-            // 
             // Password_Lable
             // 
             this.Password_Lable.AutoSize = true;
             this.Password_Lable.Font = new System.Drawing.Font("Impact", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Password_Lable.Location = new System.Drawing.Point(12, 112);
+            this.Password_Lable.Location = new System.Drawing.Point(75, 157);
             this.Password_Lable.Name = "Password_Lable";
             this.Password_Lable.Size = new System.Drawing.Size(127, 35);
             this.Password_Lable.TabIndex = 2;
@@ -73,23 +61,15 @@
             // UserName_Entry
             // 
             this.UserName_Entry.Font = new System.Drawing.Font("Arial Narrow", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.UserName_Entry.Location = new System.Drawing.Point(161, 9);
+            this.UserName_Entry.Location = new System.Drawing.Point(224, 79);
             this.UserName_Entry.Name = "UserName_Entry";
             this.UserName_Entry.Size = new System.Drawing.Size(323, 38);
             this.UserName_Entry.TabIndex = 3;
             // 
-            // ID_Entry
-            // 
-            this.ID_Entry.Font = new System.Drawing.Font("Arial Narrow", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ID_Entry.Location = new System.Drawing.Point(161, 60);
-            this.ID_Entry.Name = "ID_Entry";
-            this.ID_Entry.Size = new System.Drawing.Size(323, 38);
-            this.ID_Entry.TabIndex = 4;
-            // 
             // Password_Entry
             // 
             this.Password_Entry.Font = new System.Drawing.Font("Arial Narrow", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Password_Entry.Location = new System.Drawing.Point(161, 112);
+            this.Password_Entry.Location = new System.Drawing.Point(224, 157);
             this.Password_Entry.Name = "Password_Entry";
             this.Password_Entry.PasswordChar = '*';
             this.Password_Entry.Size = new System.Drawing.Size(323, 38);
@@ -99,7 +79,7 @@
             // Login_Button
             // 
             this.Login_Button.Font = new System.Drawing.Font("Impact", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Login_Button.Location = new System.Drawing.Point(76, 156);
+            this.Login_Button.Location = new System.Drawing.Point(143, 249);
             this.Login_Button.Name = "Login_Button";
             this.Login_Button.Size = new System.Drawing.Size(128, 43);
             this.Login_Button.TabIndex = 6;
@@ -109,7 +89,7 @@
             // RegisterForm_Button
             // 
             this.RegisterForm_Button.Font = new System.Drawing.Font("Impact", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RegisterForm_Button.Location = new System.Drawing.Point(222, 156);
+            this.RegisterForm_Button.Location = new System.Drawing.Point(289, 249);
             this.RegisterForm_Button.Name = "RegisterForm_Button";
             this.RegisterForm_Button.Size = new System.Drawing.Size(194, 43);
             this.RegisterForm_Button.TabIndex = 7;
@@ -122,7 +102,7 @@
             this.Visable_Button.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.Visable_Button.Font = new System.Drawing.Font("Impact", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Visable_Button.Image = ((System.Drawing.Image)(resources.GetObject("Visable_Button.Image")));
-            this.Visable_Button.Location = new System.Drawing.Point(435, 116);
+            this.Visable_Button.Location = new System.Drawing.Point(498, 161);
             this.Visable_Button.Name = "Visable_Button";
             this.Visable_Button.Size = new System.Drawing.Size(41, 29);
             this.Visable_Button.TabIndex = 8;
@@ -133,17 +113,15 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(490, 208);
+            this.ClientSize = new System.Drawing.Size(670, 394);
             this.Controls.Add(this.Visable_Button);
             this.Controls.Add(this.RegisterForm_Button);
             this.Controls.Add(this.Login_Button);
             this.Controls.Add(this.Password_Entry);
-            this.Controls.Add(this.ID_Entry);
             this.Controls.Add(this.UserName_Entry);
             this.Controls.Add(this.Password_Lable);
-            this.Controls.Add(this.ID_Lable);
             this.Controls.Add(this.UserName_Label);
-            this.MaximumSize = new System.Drawing.Size(508, 255);
+            this.MaximumSize = new System.Drawing.Size(800, 800);
             this.MinimumSize = new System.Drawing.Size(508, 255);
             this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -156,10 +134,8 @@
         #endregion
 
         private System.Windows.Forms.Label UserName_Label;
-        private System.Windows.Forms.Label ID_Lable;
         private System.Windows.Forms.Label Password_Lable;
         private System.Windows.Forms.TextBox UserName_Entry;
-        private System.Windows.Forms.TextBox ID_Entry;
         private System.Windows.Forms.TextBox Password_Entry;
         private System.Windows.Forms.Button Login_Button;
         private System.Windows.Forms.Button RegisterForm_Button;

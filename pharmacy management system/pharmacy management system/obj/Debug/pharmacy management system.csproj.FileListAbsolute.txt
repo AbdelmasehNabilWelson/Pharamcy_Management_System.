@@ -16,10 +16,10 @@ G:\Lectures\Third_year\Software_engineering\C#_lab\pharmacy management system\ph
 G:\Lectures\Third_year\Software_engineering\C#_lab\pharmacy management system\pharmacy management system\pharmacy management system\obj\Debug\pharmacy management system.csproj.AssemblyReference.cache
 G:\Lectures\Third_year\Software_engineering\C#_lab\pharmacy management system\pharmacy management system\pharmacy management system\obj\Debug\pharmacy_management_system.Admin_Panel.resources
 G:\Lectures\Third_year\Software_engineering\C#_lab\pharmacy management system\pharmacy management system\pharmacy management system\obj\Debug\pharmacy_management_system.Login.resources
-G:\Lectures\Third_year\Software_engineering\C#_lab\pharmacy management system\pharmacy management system\pharmacy management system\obj\Debug\pharmacy_management_system.Main_Form.resources
 G:\Lectures\Third_year\Software_engineering\C#_lab\pharmacy management system\pharmacy management system\pharmacy management system\obj\Debug\pharmacy_management_system.Properties.Resources.resources
 G:\Lectures\Third_year\Software_engineering\C#_lab\pharmacy management system\pharmacy management system\pharmacy management system\obj\Debug\pharmacy_management_system.Registration.resources
 G:\Lectures\Third_year\Software_engineering\C#_lab\pharmacy management system\pharmacy management system\pharmacy management system\obj\Debug\pharmacy management system.csproj.GenerateResource.cache
 G:\Lectures\Third_year\Software_engineering\C#_lab\pharmacy management system\pharmacy management system\pharmacy management system\obj\Debug\pharmacy management system.csproj.CoreCompileInputs.cache
 G:\Lectures\Third_year\Software_engineering\C#_lab\pharmacy management system\pharmacy management system\pharmacy management system\obj\Debug\pharmacy management system.exe
 G:\Lectures\Third_year\Software_engineering\C#_lab\pharmacy management system\pharmacy management system\pharmacy management system\obj\Debug\pharmacy management system.pdb
+G:\Lectures\Third_year\Software_engineering\C#_lab\pharmacy management system\pharmacy management system\pharmacy management system\obj\Debug\pharmacy_management_system.UserForm.resources

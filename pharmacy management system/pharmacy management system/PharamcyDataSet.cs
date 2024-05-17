@@ -7,9 +7,12 @@
     }
 }
 
-namespace pharmacy_management_system.PharamcyDataSetTableAdapters {
-    
-    
+namespace pharmacy_management_system.PharamcyDataSetTableAdapters
+{
+    partial class salesTableAdapter
+    {
+    }
+
     public partial class drugsTableAdapter {
     }
 }
