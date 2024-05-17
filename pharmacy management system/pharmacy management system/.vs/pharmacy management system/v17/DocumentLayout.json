@@ -1,0 +1,82 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\Lectures\\Third_year\\Software_engineering\\C#_lab\\pharmacy management system\\pharmacy management system\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DF057E42-99CC-4B08-8077-480506A6E45C}|pharmacy management system\\pharmacy management system.csproj|G:\\Lectures\\Third_year\\Software_engineering\\C#_lab\\pharmacy management system\\pharmacy management system\\pharmacy management system\\main form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DF057E42-99CC-4B08-8077-480506A6E45C}|pharmacy management system\\pharmacy management system.csproj|solutionrelative:pharmacy management system\\main form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF057E42-99CC-4B08-8077-480506A6E45C}|pharmacy management system\\pharmacy management system.csproj|g:\\lectures\\third_year\\software_engineering\\c#_lab\\pharmacy management system\\pharmacy management system\\pharmacy management system\\admin panel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DF057E42-99CC-4B08-8077-480506A6E45C}|pharmacy management system\\pharmacy management system.csproj|solutionrelative:pharmacy management system\\admin panel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF057E42-99CC-4B08-8077-480506A6E45C}|pharmacy management system\\pharmacy management system.csproj|G:\\Lectures\\Third_year\\Software_engineering\\C#_lab\\pharmacy management system\\pharmacy management system\\pharmacy management system\\registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DF057E42-99CC-4B08-8077-480506A6E45C}|pharmacy management system\\pharmacy management system.csproj|solutionrelative:pharmacy management system\\registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF057E42-99CC-4B08-8077-480506A6E45C}|pharmacy management system\\pharmacy management system.csproj|G:\\Lectures\\Third_year\\Software_engineering\\C#_lab\\pharmacy management system\\pharmacy management system\\pharmacy management system\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DF057E42-99CC-4B08-8077-480506A6E45C}|pharmacy management system\\pharmacy management system.csproj|solutionrelative:pharmacy management system\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "G:\\Lectures\\Third_year\\Software_engineering\\C#_lab\\pharmacy management system\\pharmacy management system\\pharmacy management system\\Login.cs",
+              "RelativeDocumentMoniker": "pharmacy management system\\Login.cs",
+              "ToolTip": "G:\\Lectures\\Third_year\\Software_engineering\\C#_lab\\pharmacy management system\\pharmacy management system\\pharmacy management system\\Login.cs [Design]",
+              "RelativeToolTip": "pharmacy management system\\Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T12:56:47.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Main Form.cs [Design]",
+              "DocumentMoniker": "G:\\Lectures\\Third_year\\Software_engineering\\C#_lab\\pharmacy management system\\pharmacy management system\\pharmacy management system\\Main Form.cs",
+              "RelativeDocumentMoniker": "pharmacy management system\\Main Form.cs",
+              "ToolTip": "G:\\Lectures\\Third_year\\Software_engineering\\C#_lab\\pharmacy management system\\pharmacy management system\\pharmacy management system\\Main Form.cs [Design]",
+              "RelativeToolTip": "pharmacy management system\\Main Form.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T12:52:03.862Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Registration.cs [Design]",
+              "DocumentMoniker": "G:\\Lectures\\Third_year\\Software_engineering\\C#_lab\\pharmacy management system\\pharmacy management system\\pharmacy management system\\Registration.cs",
+              "RelativeDocumentMoniker": "pharmacy management system\\Registration.cs",
+              "ToolTip": "G:\\Lectures\\Third_year\\Software_engineering\\C#_lab\\pharmacy management system\\pharmacy management system\\pharmacy management system\\Registration.cs [Design]",
+              "RelativeToolTip": "pharmacy management system\\Registration.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T12:50:24.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Admin Panel.cs [Design]",
+              "DocumentMoniker": "G:\\Lectures\\Third_year\\Software_engineering\\C#_lab\\pharmacy management system\\pharmacy management system\\pharmacy management system\\Admin Panel.cs",
+              "RelativeDocumentMoniker": "pharmacy management system\\Admin Panel.cs",
+              "ToolTip": "G:\\Lectures\\Third_year\\Software_engineering\\C#_lab\\pharmacy management system\\pharmacy management system\\pharmacy management system\\Admin Panel.cs [Design]",
+              "RelativeToolTip": "pharmacy management system\\Admin Panel.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T12:50:02.002Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
