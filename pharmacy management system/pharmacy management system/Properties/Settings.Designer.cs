@@ -33,5 +33,16 @@ namespace pharmacy_management_system.Properties {
                 return ((string)(this["PharamcyConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\bin\\Debug\\Pha" +
+            "ramcy.mdf;Integrated Security=True;Connect Timeout=30;Encrypt=True")]
+        public string PharamcyConnectionString1 {
+            get {
+                return ((string)(this["PharamcyConnectionString1"]));
+            }
+        }
     }
 }

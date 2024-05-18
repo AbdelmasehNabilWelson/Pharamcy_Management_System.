@@ -23,3 +23,5 @@ G:\Lectures\Third_year\Software_engineering\C#_lab\pharmacy management system\ph
 G:\Lectures\Third_year\Software_engineering\C#_lab\pharmacy management system\pharmacy management system\pharmacy management system\obj\Debug\pharmacy management system.exe
 G:\Lectures\Third_year\Software_engineering\C#_lab\pharmacy management system\pharmacy management system\pharmacy management system\obj\Debug\pharmacy management system.pdb
 G:\Lectures\Third_year\Software_engineering\C#_lab\pharmacy management system\pharmacy management system\pharmacy management system\obj\Debug\pharmacy_management_system.UserForm.resources
+G:\Lectures\Third_year\Software_engineering\C#_lab\pharmacy management system\pharmacy management system\pharmacy management system\bin\Debug\Pharamcy.mdf
+G:\Lectures\Third_year\Software_engineering\C#_lab\pharmacy management system\pharmacy management system\pharmacy management system\bin\Debug\Pharamcy_log.ldf

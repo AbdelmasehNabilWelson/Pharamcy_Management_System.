@@ -54,29 +54,36 @@ namespace pharmacy_management_system
             }
             else
             {
-                // Corrected connection string with escaped backslashes
                 using (SqlConnection connection = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Pharamcy.mdf;Integrated Security=True"))
                 {
                     connection.Open();
 
-                    // Using parameterized query to prevent SQL injection
-                    using (SqlCommand command = new SqlCommand("SELECT COUNT(*) FROM users WHERE username = @Username AND password = @Password", connection))
+                    using (SqlCommand command = new SqlCommand("SELECT admin FROM users WHERE username = @Username AND password = @Password", connection))
                     {
                         command.Parameters.AddWithValue("@Username", username);
                         command.Parameters.AddWithValue("@Password", password);
 
-                        int result = Convert.ToInt32(command.ExecuteScalar());
+                        object result = command.ExecuteScalar();
 
-                        if (result > 0)
+                        if (result != null)
                         {
-                            //MessageBox.Show("Login successful.");
-                            // Proceed with opening the next form or user interface
-                            UserForm userForm = new UserForm();
+                            bool isAdmin = (bool)result;
                             this.Hide();
 
-                            // assign close action to the userForm
-                            userForm.FormClosed += (s, args) => this.Close();
-                            userForm.ShowDialog();
+                            if (isAdmin)
+                            {
+                                // Open the admin panel
+                                Admin_Panel adminPanel = new Admin_Panel();
+                                adminPanel.FormClosed += (s, args) => this.Close();
+                                adminPanel.ShowDialog();
+                            }
+                            else
+                            {
+                                // Open the user form
+                                UserForm userForm = new UserForm();
+                                userForm.FormClosed += (s, args) => this.Close();
+                                userForm.ShowDialog();
+                            }
                         }
                         else
                         {
@@ -86,6 +93,7 @@ namespace pharmacy_management_system
                 }
             }
         }
+
 
     }
 }
