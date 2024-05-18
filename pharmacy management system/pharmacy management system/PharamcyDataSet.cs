@@ -9,6 +9,10 @@
 
 namespace pharmacy_management_system.PharamcyDataSetTableAdapters
 {
+    partial class usersTableAdapter
+    {
+    }
+
     partial class salesTableAdapter
     {
     }
