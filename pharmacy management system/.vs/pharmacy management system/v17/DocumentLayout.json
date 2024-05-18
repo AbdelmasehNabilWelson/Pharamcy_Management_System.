@@ -3,15 +3,19 @@
   "WorkspaceRootPath": "G:\\Lectures\\Third_year\\Software_engineering\\C#_lab\\pharmacy management system\\pharmacy management system\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DF057E42-99CC-4B08-8077-480506A6E45C}|pharmacy management system\\pharmacy management system.csproj|G:\\Lectures\\Third_year\\Software_engineering\\C#_lab\\pharmacy management system\\pharmacy management system\\pharmacy management system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF057E42-99CC-4B08-8077-480506A6E45C}|pharmacy management system\\pharmacy management system.csproj|solutionrelative:pharmacy management system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DF057E42-99CC-4B08-8077-480506A6E45C}|pharmacy management system\\pharmacy management system.csproj|g:\\lectures\\third_year\\software_engineering\\c#_lab\\pharmacy management system\\pharmacy management system\\pharmacy management system\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF057E42-99CC-4B08-8077-480506A6E45C}|pharmacy management system\\pharmacy management system.csproj|solutionrelative:pharmacy management system\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DF057E42-99CC-4B08-8077-480506A6E45C}|pharmacy management system\\pharmacy management system.csproj|G:\\Lectures\\Third_year\\Software_engineering\\C#_lab\\pharmacy management system\\pharmacy management system\\pharmacy management system\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{DF057E42-99CC-4B08-8077-480506A6E45C}|pharmacy management system\\pharmacy management system.csproj|solutionrelative:pharmacy management system\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DF057E42-99CC-4B08-8077-480506A6E45C}|pharmacy management system\\pharmacy management system.csproj|g:\\lectures\\third_year\\software_engineering\\c#_lab\\pharmacy management system\\pharmacy management system\\pharmacy management system\\admin panel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{DF057E42-99CC-4B08-8077-480506A6E45C}|pharmacy management system\\pharmacy management system.csproj|g:\\lectures\\third_year\\software_engineering\\c#_lab\\pharmacy management system\\pharmacy management system\\pharmacy management system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF057E42-99CC-4B08-8077-480506A6E45C}|pharmacy management system\\pharmacy management system.csproj|solutionrelative:pharmacy management system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF057E42-99CC-4B08-8077-480506A6E45C}|pharmacy management system\\pharmacy management system.csproj|G:\\Lectures\\Third_year\\Software_engineering\\C#_lab\\pharmacy management system\\pharmacy management system\\pharmacy management system\\admin panel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{DF057E42-99CC-4B08-8077-480506A6E45C}|pharmacy management system\\pharmacy management system.csproj|solutionrelative:pharmacy management system\\admin panel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -34,11 +38,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
+              "Title": "Login.cs",
+              "DocumentMoniker": "G:\\Lectures\\Third_year\\Software_engineering\\C#_lab\\pharmacy management system\\pharmacy management system\\pharmacy management system\\Login.cs",
+              "RelativeDocumentMoniker": "pharmacy management system\\Login.cs",
+              "ToolTip": "G:\\Lectures\\Third_year\\Software_engineering\\C#_lab\\pharmacy management system\\pharmacy management system\\pharmacy management system\\Login.cs",
+              "RelativeToolTip": "pharmacy management system\\Login.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAD4vy8AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T11:28:37.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "PharamcyDataSet.xsd",
               "DocumentMoniker": "G:\\Lectures\\Third_year\\Software_engineering\\C#_lab\\pharmacy management system\\pharmacy management system\\pharmacy management system\\PharamcyDataSet.xsd",
               "RelativeDocumentMoniker": "pharmacy management system\\PharamcyDataSet.xsd",
@@ -50,7 +67,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Admin Panel.cs",
               "DocumentMoniker": "G:\\Lectures\\Third_year\\Software_engineering\\C#_lab\\pharmacy management system\\pharmacy management system\\pharmacy management system\\Admin Panel.cs",
               "RelativeDocumentMoniker": "pharmacy management system\\Admin Panel.cs",
@@ -63,7 +80,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Registration.cs [Design]",
               "DocumentMoniker": "G:\\Lectures\\Third_year\\Software_engineering\\C#_lab\\pharmacy management system\\pharmacy management system\\pharmacy management system\\Registration.cs",
               "RelativeDocumentMoniker": "pharmacy management system\\Registration.cs",
@@ -75,7 +92,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Admin Panel.cs [Design]",
               "DocumentMoniker": "G:\\Lectures\\Third_year\\Software_engineering\\C#_lab\\pharmacy management system\\pharmacy management system\\pharmacy management system\\Admin Panel.cs",
               "RelativeDocumentMoniker": "pharmacy management system\\Admin Panel.cs",
@@ -99,7 +116,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "G:\\Lectures\\Third_year\\Software_engineering\\C#_lab\\pharmacy management system\\pharmacy management system\\pharmacy management system\\Program.cs",
               "RelativeDocumentMoniker": "pharmacy management system\\Program.cs",
